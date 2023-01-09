@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "madis-bot"
+version = "0.1.0"
+description = "A moderation and analysis discord bot"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "madis_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+discord-py = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
